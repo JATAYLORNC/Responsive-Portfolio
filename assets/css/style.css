@@ -1,0 +1,631 @@
+html {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 100%;
+	color: #777777;
+	background-image: url("../images/fresh_snow_@2X.png");
+	margin: 0;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -90px;
+}
+
+.wrapper-inside {
+	padding-bottom: 90px; 
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #4aaaa5;
+}
+
+header {
+	height: 90px;
+	width: 100%;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
+	background-color: #ffffff;
+}
+
+.namebox {
+	position: relative;
+	display: inline-block;
+	left: 11.5%;
+	top: 0;
+	width: 18.5%;
+	height: 90px;
+	line-height: 90px;
+	background-color: #4aaaa5;
+	border-bottom: 2px solid #cccccc;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.namebox h1 {
+	color: #ffffff;
+}
+
+.menu {
+	position: relative;
+	display: inline-block;
+	left: 46%;
+	font-size: 1.1em;
+	direction: rtl;
+	height: 90px;
+	line-height: 90px;
+}
+
+.index, .portfolio {
+	position: relative;
+	color: #777777;
+	text-decoration: none;
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #dddddd;
+}
+
+.contact {
+	position: relative;
+	margin-right: 0;
+	text-decoration: none;
+	color: #777777;
+}
+
+.index:hover, .portfolio:hover {
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
+.contact:hover {
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
+.container, .pcontainer, .ccontainer {
+	padding-top: 40px;
+	width: 100%;
+}
+
+.about {
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	width: 48.1%;
+	background-color: #ffffff;
+	margin-left: 11.6%;
+	margin-right: 42px;
+	margin-bottom: 40px;
+	padding: 30px;
+}
+
+.port {
+	display: inline-block;
+	vertical-align: top;
+	width: 48.1%;
+	height: 100%;
+	background-color: #ffffff;
+	margin-left: 6.7%;
+	margin-right: 42px;
+	margin-bottom: 40px;
+}
+
+ .contactbox {
+	display: inline-block;
+	vertical-align: top;
+	width: 48.1%;
+	background-color: #ffffff;
+	margin-left: 6.7%;
+	margin-right: 42px;
+	margin-bottom: 40px;
+	padding: 0 30px 0px 30px;
+ } 
+
+.pfbox {
+	position: relative;
+	padding: 0 30px 30px 30px;
+}
+
+.formbox {
+	position: relative;
+	width: 100%;
+	height: 477.8px; 
+}
+
+.pfbannerbox {
+	position: relative;
+	height: 100px;
+	line-height: 100px;
+	margin-right: 30px;
+	margin-left: 30px;
+	border-bottom: 3px solid #dddddd;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+.ambox, .cbox { 
+	position: relative;
+	height: 100px;
+	line-height: 100px;
+	border-bottom: 3px solid #dddddd;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+div.bio {
+	display: inline;
+	position: relative;
+	top: 0;
+	left: 0;
+	font-size: 1.05em;
+}
+
+.bio p {
+	margin-top: 1.1em;
+}
+
+#bio_img {
+	width: 180px;
+	height: 180px;
+	float: left;
+	margin-right: 20px;
+}
+
+
+.iname {
+	margin-top: 26px;
+	margin-bottom: 6px;
+	font-size: 1.2em;
+}
+
+.iemail, .imessage {
+	margin-top: 16px;
+	margin-bottom: 6px;
+	font-size: 1.2em;
+}
+
+input[type=text] {
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 0.9em;
+	color: #dddddd;
+	padding: 8px;
+}
+
+input[type=text]:focus {
+	color: #777777;
+}
+
+textarea {
+	height: 200px;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 1.1em;
+	color: #777777;
+	padding: 8px;
+	resize: none;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 120px;
+	height: 40px;
+	margin-top: 20px;
+	border: none;
+	font-size: 1.1em;
+}
+
+input[type=submit]:hover {
+	width: 125px;
+	height: 45px;
+}
+
+#aside-box {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: 100%;
+	background-color: #ffffff;
+}
+
+.connect {
+	position: relative;
+	width: 270px;
+	height: 200px;
+	background-color: #ffffff;
+}
+
+
+.cwmbox {
+	height: 70px;
+	line-height: 70px;
+	width: 100%;
+}
+
+#cwmh2 {
+	border-bottom: 2px solid #dddddd;
+	font-size: 1.35em;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.social {
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+
+.gh, .li {
+	margin-right: 5px;
+	margin-top: 24px;
+}
+
+.gh:hover, .li:hover {
+	width:69px;
+	height:69px;
+	margin-right: 0px;
+	margin-top: 19px;
+}
+
+.so {
+	margin-top: 24px;
+}
+
+.so:hover {
+	width:69px;
+	height:69px;
+	margin-top: 19px;
+}
+
+.project1 {
+	display: inline-block;
+	position: relative;
+	width: 42.5%;
+	margin-right: 14%;
+	margin-top: 30px;
+}
+
+.project2 {
+	display: inline-block;
+	position: relative;
+	width: 42.5%;
+	margin-top: 30px;
+}
+
+.project3 {
+	display: inline-block;
+	position: relative;
+	width: 42.5%;
+	margin-top: 30px;
+	margin-right: 14%;
+}
+
+.project4 {
+	display: inline-block;
+	position: relative;
+	width: 42.5%;
+	margin-top: 30px;
+}
+
+.project5 {
+	display: inline-block;
+	position: relative;
+	width: 42.5%;
+	margin-top: 30px;
+	margin-right: 14%;
+}
+
+.p-img {
+	width: 100%;
+	height: 100%
+}
+
+.ppb {
+	position: relative;
+	top: 25%;
+}
+
+.project1:hover img, .project2:hover img, .project3:hover img, .project4:hover img, .project5:hover img {
+transform: scale(1.1);
+}
+
+.project1:hover .projectbox, .project2:hover .projectbox, .project3:hover .projectbox, 
+.project4:hover .projectbox, .project5:hover .projectbox {
+	transform: scale(1.1);
+}
+
+.projectbox {
+	position: absolute;
+	font-size: 130%;
+	text-align: center;
+	top: 65.7%;
+	width: 100%;
+	height: 29%;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+footer {
+	clear: left;
+	background-color: #666666;
+	width: 100%;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	border-top: 5px solid #4aaaa5;
+	font-size: 0.7em;
+	color: #dddddd;
+}
+
+
+@media screen and (max-width: 980px) and (min-width: 769px) {
+
+	.project1, .project2, .project3, .project4, .project5 {
+		display: block;
+		position: relative;
+		width: 70%;
+		margin-left: 15%;
+	}
+
+	.ppb {
+		padding-top: 8px;
+	}
+	
+	
+    
+}
+
+ @media screen and (min-width: 641px) and (max-width: 768px) {
+
+	header {
+		height: 63px;
+	}
+
+	.namebox {
+		font-size: 1.4rem;
+		padding-left: 0.5%;
+		padding-right:0.5%;
+		height: 63px;
+		line-height: 63px;
+	}
+
+	.menu {
+		left: 36%;
+		font-size: 1.1em;
+		height: 63px;
+		line-height: 63px;
+	}
+
+	.about {
+		display: block;
+		width: 90%;
+		background-color: #ffffff;
+		margin-left: 4.5%;
+		margin-right: 0;
+		padding: 0 30px 0 30px;
+		box-sizing: border-box;
+	}
+
+	.port {
+		display: block;
+		width: 90%;
+		background-color: #ffffff;
+		margin-left: 4.5%;
+		margin-right: 0;
+		padding: 0 30px 0 30px;
+		box-sizing: border-box;
+	}
+
+	.contactbox {
+		display: block;
+		width: 80%;
+		background-color: #ffffff;
+		margin-left: 6.7%;
+		margin-right: 42px;
+		margin-bottom: 40px;
+		padding: 0 30px 0px 30px;
+	 } 
+
+	 .pfbannerbox {
+		height: 49px;
+		line-height: 49px;
+		font-size: 1.3rem;
+	}
+
+	.ambox, .cbox { 
+		height: 70px;
+		line-height: 70px;
+		font-size: 1.3rem;
+		}
+
+	.ppb {
+		padding-top: 8px;
+	}
+		
+	#aside-box {
+		display: block;
+		position: relative;
+		width: 88%;
+		height: 100%;
+		margin-left: 6.7%;
+		margin-bottom: 40px;
+	}
+
+	 .connect {
+		position: relative;
+		width: 100%;
+		height: 188px;
+
+	} 
+
+	.cwmbox {
+		line-height: 70px;
+		width: 100%;
+		margin: 0;
+		background-color: #ffffff;
+	}
+	
+	.social {
+		margin-left: 30px;
+		margin-bottom: 28px;
+	}
+
+	.wrapper {
+		margin-bottom: -63px;
+	}
+	
+	.wrapper-inside {
+		padding-bottom: 63px; 
+	}
+
+	footer {
+		height: 63px;
+		line-height: 63px;
+		text-align: center;
+	}
+
+ }
+
+	
+
+@media screen and (max-width: 640px) {
+
+	header {
+		height: 126px;
+		background-color: #ffffff00;
+		width: 100%;
+	}
+
+	.namebox {
+		display: block;
+		width: 100%;
+		left: 0;
+		padding: 0;
+		font-size: 1.4rem;
+		height: 63px;
+		line-height: 63px;
+	}
+
+	.menu {
+		display: block;
+		width: 100%;
+		left: 0;
+		text-align: center;
+		font-size: 1.1em;
+		height: 63px;
+		line-height: 63px;
+		background-color: #ffffff;
+	}
+
+	.about {
+		display: block;
+		width: 90%;
+		background-color: #ffffff;
+		margin-left: 4.5%;
+		margin-right: 0;
+		padding: 0 30px 0 30px;
+		box-sizing: border-box;
+	}
+	
+	.port {
+		display: block;
+		width: 90%;
+		background-color: #ffffff;
+		margin-left: 4.5%;
+		margin-right: 0;
+		padding: 0 30px 0 30px;
+		box-sizing: border-box;
+	}
+
+	.contactbox {
+		display: block;
+		width: 90%;
+		background-color: #ffffff;
+		margin-left: 4.5%;
+		margin-right: 0px;
+		padding: 0 30px 0 30px;
+		box-sizing: border-box;
+	 } 
+
+	 .pfbannerbox {
+		width: 70%;
+		height: 49px;
+		line-height: 49px;
+		font-size: 1.3rem;
+		margin-left: 15%;
+	}
+
+	.ambox, .cbox { 
+		height: 49px;
+		line-height: 49px;
+		font-size: 1.3rem;
+		}
+
+	.project1, .project2, .project3, .project4, .project5 {
+		display: block;
+		position: relative;
+		width: 70%;
+		margin-left: 15%;
+	}
+
+	.ppb {
+		padding-top: 8px;
+	}
+		
+	#aside-box {
+		display: block;
+		position: relative;
+		width: 90%;
+		height: 100%;
+		margin-left: 4.5%;
+		margin-bottom: 40px;
+	}
+
+	 .connect {
+		position: relative;
+		width: 100%;
+		height: 188px;
+
+	} 
+
+	.cwmbox {
+		line-height: 70px;
+		width: 100%;
+		margin: 0;
+		background-color: #ffffff;
+	}
+	
+	.social {
+		margin-left: 30px;
+		margin-bottom: 28px;
+	}
+
+	.wrapper {
+		margin-bottom: -63px;
+	}
+	
+	.wrapper-inside {
+		padding-bottom: 63px; 
+	}
+
+	footer {
+		height: 63px;
+		line-height: 63px;
+		text-align: center;
+	}
+    
+}
+
+} 
